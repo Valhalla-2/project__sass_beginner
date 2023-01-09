@@ -1,0 +1,33 @@
+.contact {
+    min-height: 100vh;
+    padding-top: 40vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(
+    to right,
+    rgba($primary-color, 0.9),
+    rgba($primary-color, 0.3)
+    ), 
+    url("https://icecube-eu-290.icedrive.io/download?p=dBavZUhQDKnMg9bdHMXgDFaV9Zj8NuvotlXtfW.EwGcrercHdH2jSKshjd5BvYJVoUqbRY9._DeemMOuu7yV5qwzwD1kGhe8eDBTKDgScLqAuOxzkrpm7SQNRekCoOKe2wsaMvzMy5AcvAEP1671ZQKb3eSMjBvkqZjEeaFb.Kfm9pfTzXqRRKmtc13tindieGRKUVrq3gFbZIo21KOY.A--") center top;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-size:3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:2rem;
+        font-size: 1.5rem;
+    }
+
+    .social__icon {
+        position: initial;
+        margin-top: 2rem;
+    }
+}

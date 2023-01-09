@@ -1,0 +1,44 @@
+.projects {
+  padding-bottom: 2rem;
+  background-color: #272727;
+}
+.projects__bio-image {
+  height: 30vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("https://icecube-eu-290.icedrive.io/download?p=dBavZUhQDKnMg9bdHMXgDFaV9Zj8NuvotlXtfW.EwGcrercHdH2jSKshjd5BvYJVoUqbRY9._DeemMOuu7yV5qwzwD1kGhe8eDBTKDgScLqAuOxzkrpm7SQNRekCoOKe2wsaMvzMy5AcvAEP1671ZQKb3eSMjBvkqZjEeaFb.Kfm9pfTzXqRRKmtc13tindieGRKUVrq3gFbZIo21KOY.A--") center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.projects__bio-image .text__secondary {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.projects .projects__items {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.projects .projects__item {
+  position: relative;
+  border-bottom: 5px solid #ff652f;
+  overflow: hidden;
+  cursor: pointer;
+}
+.projects .projects__item img {
+  width: 100%;
+}
+.projects .projects__item::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #ff652f;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}/*# sourceMappingURL=projects.css.map */

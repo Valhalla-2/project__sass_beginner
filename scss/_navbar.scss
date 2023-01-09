@@ -1,0 +1,24 @@
+.nav {
+    .menu__nav {
+        transform: translateY(-100%);
+        position: absolute;
+        width: 100%;
+        min-height: 100vh;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            transform: translateX(100vw);
+        }
+    
+    }
+}
+
+.nav__link:hover {
+    border-bottom: 1px solid #fff;
+    color: $secondary-color;
+}
